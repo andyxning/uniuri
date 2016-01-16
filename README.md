@@ -9,7 +9,8 @@ The main difference between the original [uniuri](https://github.com/dchest/uniu
 and this repo is that this repo adds support for **dash(-)** and **underscore
 (_)**. I think both of them(dash and underscore) are normal to the uri. :)
 
-
+Usage
+-----
 ```go
 import "github.com/dchest/uniuri"
 ```
