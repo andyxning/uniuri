@@ -3,6 +3,13 @@ Package uniuri
 
 [![Build Status](https://travis-ci.org/dchest/uniuri.svg)](https://travis-ci.org/dchest/uniuri)
 
+Difference
+----------
+The main difference between the original [uniuri](https://github.com/dchest/uniuri) 
+and this repo is that this repo adds support for **dash(-)** and **underscore
+(_)**. I think both of them(dash and underscore) are normal to the uri. :)
+
+
 ```go
 import "github.com/dchest/uniuri"
 ```
@@ -46,7 +53,7 @@ Variables
 ---------
 
 ```go
-var StdChars = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+var StdChars = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-")
 ```
 
 

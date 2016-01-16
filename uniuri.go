@@ -33,7 +33,7 @@ const (
 )
 
 // StdChars is a set of standard characters allowed in uniuri string.
-var StdChars = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+var StdChars = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-")
 
 // New returns a new random string of the standard length, consisting of
 // standard characters.
